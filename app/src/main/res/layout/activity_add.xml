@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD DETAILS"
+        android:textColor="#D50000"
+        android:fontFamily="monospace"
+        android:layout_marginLeft="115dp"
+        android:textSize="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter name:-"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="30dp"/>
+
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#FF5722"
+                android:layout_marginTop="15dp"
+                android:inputType="textPersonName"
+                android:hint="Book name"
+                android:textColorHint="#00695C"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter author name:-"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="30dp"/>
+            <EditText
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_marginTop="15dp"
+                android:textColor="#FF5722"
+                android:hint="Author"
+                android:textColorHint="#00695C"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter price:-"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="30dp"/>
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#FF5722"
+                android:textColorHint="#00695C"
+                android:layout_marginTop="15dp"
+                android:hint="Prize"
+                android:inputType="numberSigned"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter category of book:"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="30dp"/>
+            <EditText
+                android:layout_marginTop="15dp"
+                android:id="@+id/category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#FF5722"
+                android:textColorHint="#00695C"
+                android:inputType="textPersonName"
+                android:hint="Category" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About the book:-"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="30dp"/>
+            <EditText
+                android:layout_marginTop="15dp"
+                android:id="@+id/des"
+                android:textColorHint="#00695C"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:hint="Description"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your contact no:"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="60dp"/>
+            <EditText
+                android:layout_marginTop="15dp"
+                android:id="@+id/cno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#FF5722"
+                android:textColorHint="#00695C"
+                android:inputType="numberSigned"
+                android:hint="Contact number"/>
+
+            <Button
+                android:layout_marginTop="40dp"
+                android:id="@+id/butt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add details" />
+            <Button
+                android:layout_marginTop="40dp"
+                android:id="@+id/butt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="select image " />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

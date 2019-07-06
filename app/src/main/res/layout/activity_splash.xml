@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="in.ac.cusat.xellon.SplashActivity"
+    android:background="@drawable/backsplash">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/xim"
+        android:id="@+id/imageView" />
+
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#00796B"
+        android:fontFamily="monospace"
+        android:includeFontPadding="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XellON!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SELL>>>BUY>>>ENJOY"
+        android:textColor="#ffff00"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="15dp"
+        />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/progressBar2" />
+
+
+</LinearLayout>
